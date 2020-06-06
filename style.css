@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}        
+
+#back{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: 'montserrat';
+
+}
+#nav{
+    z-index: 2;
+    position:fixed;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin-bottom: 20px;
+    padding-top: 13px;
+    justify-content: space-around;
+}
+#nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.733);
+    font-weight: 400;
+    font-size: 14px;   
+    font-family: 'montserrat';
+}
+#nav a:hover{
+    color: #fff;
+}
+#size1{
+    height: 23px;
+    width: 23px;
+    background-image: url(logo.PNG);
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+}
+#size2{
+    height: 23px;
+    width: 23px;
+    background-image: url(search.PNG);
+    background-size: cover;
+    background-position: center;
+    margin-right: 100px;
+}
+.center{
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+   
+}
+#first{
+    padding-top: 60px;
+    background-image: url(center1.PNG);
+    background-color: #fff;
+}
+#secound{
+    padding-top: 30px;
+    background-image: url(middle.PNG);
+}
+#third{
+    padding-top: 30px;
+    background-image: url(middle2.PNG);
+}
+#secound #insidecenter{
+    background-color: rgb(250, 250, 250);
+    color: #000;
+}
+#third{
+    margin-top: 10px;
+}
+#third #insidecenter{
+    background-color: rgb(250, 250, 250);
+    color: #000;
+    width: 43%;
+    margin-left: 350px;
+    align-items: center;
+}
+#third #insidecenter h2{
+    font-size: 42px;
+    font-weight: 700;
+}
+#insidecenter{
+    height: 180px;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    position: relative;
+}
+#insidecenter h2{
+    font-size:52px;
+    font-weight: 600; 
+}
+#insidecenter h1{
+ font-size: 23px;
+ font-weight: 500;
+}
+#insidecenter h3{
+    color: rgb(228, 21, 21);
+    letter: spacing 2px;
+
+}
+#insidecenter a{
+font-size: 19px;
+text-decoration: none;
+font-weight:500;
+color: rgb(0, 87, 248);
+}
+#insidecenter a:hover{
+    border-bottom: 2px solid rgb(0, 87, 248);
+}
+#logowatch{
+    height: 50px;
+    width: 50px;
+    
+    position: absolute;
+    background-image: url(logowatch.PNG);
+    background-position: center;
+    background-size: cover;
+    top: 34px;
+    left: 139px;
+
+}
+
+.batch{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.batchA{
+    height: 100%;
+    width: calc(50% - 15px);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 255, 255) ;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.batchB{
+    height: 100%;
+    width: calc(50% - 15px);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 255, 255) ;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#innerbatch{
+    position: relative;
+   height: 30%;
+   width: 100%;
+   color: black;
+   background-color: rgb(247, 247, 247);
+   text-align: center;
+}
+
+#batch1{
+    background-image: url(batch1.PNG);
+}
+#batch11{
+    background-image: url(batch11.PNG);
+}
+#batch2{
+    background-image: url(batch2.PNG);
+}
+#batch22{
+    background-image: url(batch22.PNG);
+}
+#batch3{
+    background-image: url(batch3.PNG);
+}
+#batch33{
+    background-image: url(batch33.PNG);
+}
+#batch2 #innerbatch{
+    height: 35%;
+}
+#batch11 #innerbatch{
+    padding-top: 25px;
+    color: white;
+    background-color: #000;
+}
+#innerbatch a{
+    font-size: 17px;
+    text-decoration: none;
+    font-weight:500;
+    color: rgb(0, 110, 255);
+    margin-top: 30px;
+    }
+#innerbatch a:hover{
+        border-bottom: 2px solid rgb(0, 110, 255);
+    }
+#innerbatch h1{
+    margin-top: 10px;
+        font-size: 37px;
+        font-weight:600;
+}
+#innerbatch h2{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight:500;
+    margin-bottom: 13px;
+}
+#innerbatch h5{
+    font-size: 16px;
+    font-weight:500;
+}
+#innerbatch h6{
+    font-size: 18px;
+    font-weight:1000;
+    font-family: 'Shadows Into Light', cursive;
+}
+#logowatch1{
+    height: 36px;
+    width: 36px;
+    background-image: url(logowatch.PNG);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 33px;
+    left: 245px;
+}
+#lower{
+    height: 480px;
+    width: 100%;
+    background-color: rgb(252, 250, 250);
+    margin-top: 20px;
+    padding-top:20px;
+    
+    
+}
+#lowertext{
+    color: rgb(134, 134, 134);
+    margin-right:140px;
+    margin-left:140px;
+    font-size: 11px;
+    font-weight: 500;
+}
+#box{
+    width: 80%;
+    min-height:200px ;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+ #boxes{
+   
+    width: 150px;
+    height: 100%;
+    
+    
+}
+#boxes h4{
+    margin-top: 10px;
+    font-size:13px;
+    font-weight: 500;
+
+}
+
+#boxes h5{
+    font-size:11px;
+    font-weight: 400;
+    margin-top: 10px;   
+}
+#lastdiv{
+    width: 80%;
+    min-height:20px ;
+
+    padding-top: 40px;
+
+    margin-left: 140px;
+    margin-right: 120px;
+}
+#lastdiv a{
+    text-decoration: none;
+    color: rgb(0, 55, 235);
+    font-size: 12px;
+}
+#lastdiv p{
+    color: black;
+    font-size: 12px;
+}
+#footer{
+    display: flex;
+    margin-top: 10px;
+    color: rgb(36, 36, 36);
+}
+#footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(75, 75, 75);
+    font-weight: 500;
+    font-size: 11px;
+}
+#footer a:hover{
+    border-bottom: 4px solid rgb(75,75,75);
+    
+}
+#footer p{
+font-size: 11px;
+color: rgb(131, 131, 131);
+font-weight: 500;
+margin-right: 20px;
+}
+#footer img{
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 340px;
+}
+#footer h5{
+    color: rgb(153, 153, 153);
+}
